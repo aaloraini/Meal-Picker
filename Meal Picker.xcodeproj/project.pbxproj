@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		EB61407E2DE9D4FB003D5DA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB6140672DE9D4FA003D5DA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB61406E2DE9D4FA003D5DA1;
+			remoteInfo = "Meal Picker";
+		};
+		EB6140882DE9D4FB003D5DA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB6140672DE9D4FA003D5DA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB61406E2DE9D4FA003D5DA1;
+			remoteInfo = "Meal Picker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB61406F2DE9D4FA003D5DA1 /* Meal Picker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meal Picker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB61407D2DE9D4FB003D5DA1 /* Meal PickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Meal PickerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB6140872DE9D4FB003D5DA1 /* Meal PickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Meal PickerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		EB6140712DE9D4FA003D5DA1 /* Meal Picker */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Meal Picker";
+			sourceTree = "<group>";
+		};
+		EB6140802DE9D4FB003D5DA1 /* Meal PickerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Meal PickerTests";
+			sourceTree = "<group>";
+		};
+		EB61408A2DE9D4FB003D5DA1 /* Meal PickerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Meal PickerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB61406C2DE9D4FA003D5DA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB61407A2DE9D4FB003D5DA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB6140842DE9D4FB003D5DA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB6140662DE9D4FA003D5DA1 = {
+			isa = PBXGroup;
+			children = (
+				EB6140712DE9D4FA003D5DA1 /* Meal Picker */,
+				EB6140802DE9D4FB003D5DA1 /* Meal PickerTests */,
+				EB61408A2DE9D4FB003D5DA1 /* Meal PickerUITests */,
+				EB6140702DE9D4FA003D5DA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB6140702DE9D4FA003D5DA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB61406F2DE9D4FA003D5DA1 /* Meal Picker.app */,
+				EB61407D2DE9D4FB003D5DA1 /* Meal PickerTests.xctest */,
+				EB6140872DE9D4FB003D5DA1 /* Meal PickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB61406E2DE9D4FA003D5DA1 /* Meal Picker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB6140912DE9D4FB003D5DA1 /* Build configuration list for PBXNativeTarget "Meal Picker" */;
+			buildPhases = (
+				EB61406B2DE9D4FA003D5DA1 /* Sources */,
+				EB61406C2DE9D4FA003D5DA1 /* Frameworks */,
+				EB61406D2DE9D4FA003D5DA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				EB6140712DE9D4FA003D5DA1 /* Meal Picker */,
+			);
+			name = "Meal Picker";
+			packageProductDependencies = (
+			);
+			productName = "Meal Picker";
+			productReference = EB61406F2DE9D4FA003D5DA1 /* Meal Picker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB61407C2DE9D4FB003D5DA1 /* Meal PickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB6140942DE9D4FB003D5DA1 /* Build configuration list for PBXNativeTarget "Meal PickerTests" */;
+			buildPhases = (
+				EB6140792DE9D4FB003D5DA1 /* Sources */,
+				EB61407A2DE9D4FB003D5DA1 /* Frameworks */,
+				EB61407B2DE9D4FB003D5DA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB61407F2DE9D4FB003D5DA1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EB6140802DE9D4FB003D5DA1 /* Meal PickerTests */,
+			);
+			name = "Meal PickerTests";
+			packageProductDependencies = (
+			);
+			productName = "Meal PickerTests";
+			productReference = EB61407D2DE9D4FB003D5DA1 /* Meal PickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB6140862DE9D4FB003D5DA1 /* Meal PickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB6140972DE9D4FB003D5DA1 /* Build configuration list for PBXNativeTarget "Meal PickerUITests" */;
+			buildPhases = (
+				EB6140832DE9D4FB003D5DA1 /* Sources */,
+				EB6140842DE9D4FB003D5DA1 /* Frameworks */,
+				EB6140852DE9D4FB003D5DA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB6140892DE9D4FB003D5DA1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EB61408A2DE9D4FB003D5DA1 /* Meal PickerUITests */,
+			);
+			name = "Meal PickerUITests";
+			packageProductDependencies = (
+			);
+			productName = "Meal PickerUITests";
+			productReference = EB6140872DE9D4FB003D5DA1 /* Meal PickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB6140672DE9D4FA003D5DA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					EB61406E2DE9D4FA003D5DA1 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					EB61407C2DE9D4FB003D5DA1 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = EB61406E2DE9D4FA003D5DA1;
+					};
+					EB6140862DE9D4FB003D5DA1 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = EB61406E2DE9D4FA003D5DA1;
+					};
+				};
+			};
+			buildConfigurationList = EB61406A2DE9D4FA003D5DA1 /* Build configuration list for PBXProject "Meal Picker" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB6140662DE9D4FA003D5DA1;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = EB6140702DE9D4FA003D5DA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB61406E2DE9D4FA003D5DA1 /* Meal Picker */,
+				EB61407C2DE9D4FB003D5DA1 /* Meal PickerTests */,
+				EB6140862DE9D4FB003D5DA1 /* Meal PickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB61406D2DE9D4FA003D5DA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB61407B2DE9D4FB003D5DA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB6140852DE9D4FB003D5DA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB61406B2DE9D4FA003D5DA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB6140792DE9D4FB003D5DA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB6140832DE9D4FB003D5DA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB61407F2DE9D4FB003D5DA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB61406E2DE9D4FA003D5DA1 /* Meal Picker */;
+			targetProxy = EB61407E2DE9D4FB003D5DA1 /* PBXContainerItemProxy */;
+		};
+		EB6140892DE9D4FB003D5DA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB61406E2DE9D4FA003D5DA1 /* Meal Picker */;
+			targetProxy = EB6140882DE9D4FB003D5DA1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EB61408F2DE9D4FB003D5DA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB6140902DE9D4FB003D5DA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		EB6140922DE9D4FB003D5DA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Meal Picker/Meal_Picker.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hekm.Meal-Picker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EB6140932DE9D4FB003D5DA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Meal Picker/Meal_Picker.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hekm.Meal-Picker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EB6140952DE9D4FB003D5DA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hekm.Meal-PickerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meal Picker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Meal Picker";
+			};
+			name = Debug;
+		};
+		EB6140962DE9D4FB003D5DA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hekm.Meal-PickerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meal Picker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Meal Picker";
+			};
+			name = Release;
+		};
+		EB6140982DE9D4FB003D5DA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hekm.Meal-PickerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Meal Picker";
+			};
+			name = Debug;
+		};
+		EB6140992DE9D4FB003D5DA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hekm.Meal-PickerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Meal Picker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB61406A2DE9D4FA003D5DA1 /* Build configuration list for PBXProject "Meal Picker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB61408F2DE9D4FB003D5DA1 /* Debug */,
+				EB6140902DE9D4FB003D5DA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB6140912DE9D4FB003D5DA1 /* Build configuration list for PBXNativeTarget "Meal Picker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB6140922DE9D4FB003D5DA1 /* Debug */,
+				EB6140932DE9D4FB003D5DA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB6140942DE9D4FB003D5DA1 /* Build configuration list for PBXNativeTarget "Meal PickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB6140952DE9D4FB003D5DA1 /* Debug */,
+				EB6140962DE9D4FB003D5DA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB6140972DE9D4FB003D5DA1 /* Build configuration list for PBXNativeTarget "Meal PickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB6140982DE9D4FB003D5DA1 /* Debug */,
+				EB6140992DE9D4FB003D5DA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB6140672DE9D4FA003D5DA1 /* Project object */;
+}
