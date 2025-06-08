@@ -8,16 +8,10 @@
 import Foundation
 
 struct Restaurant: Identifiable, Codable, Equatable, Hashable {
-    var id: UUID
+    var id = UUID()
     var name: String
     var menu: [String: [String]] // category: [items]
-
-    init(id: UUID = UUID(), name: String, menu: [String: [String]]) {
-        self.id = id
-        self.name = name
-        self.menu = menu
-    }
-
+    
     func randomMeal() -> [String: String] {
         var result: [String: String] = [:]
         for (category, items) in menu {
