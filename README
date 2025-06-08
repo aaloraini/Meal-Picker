@@ -5,11 +5,10 @@ A macOS app that helps you decide what to eat by randomly selecting meal items f
 ## Features
 - Add restaurants with custom menus
 - Generate random meals per category
-- Beautiful SwiftUI interface
+- Sleek SwiftUI interface with improved alignment
+- Enhanced user experience and visual polish
 - Persistent storage
 
-## Screenshots
-![App Screenshot](screenshot.png)
 
 ## Requirements
 - macOS 12.0+
@@ -18,5 +17,3 @@ A macOS app that helps you decide what to eat by randomly selecting meal items f
 ## Installation
 ```bash
 git clone https://github.com/YOUR-USERNAME/MealPicker.git
-```
-Open `MealPicker.xcodeproj` in Xcode and run!
